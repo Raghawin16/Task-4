@@ -1,0 +1,451 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 40%;
+    background-color: #e0e0e0;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-actions, .social-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.social-login {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    margin-top: -20px;
+}
+
+.social-btn {
+    padding: 10px 16px; 
+    border-radius: 5px;
+    border: none;
+    font-size: 0.9rem; 
+    cursor: pointer;
+    
+}
+.social-login .social-btn img {
+    width: 13px;  
+    height: 13px; 
+    margin-right: 6px; 
+  }
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.google {
+    background-color:  #F4B400;
+    color: white;
+}
+
+.twitter {
+    background-color: #00aced;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        width: 90%;
+    }
+
+    .form-actions, .social-login {
+        flex-direction: column;
+    }
+
+    .social-login {
+        gap: 5px; 
+    }
+
+    .social-btn {
+        width: 100%;
+        margin: 5px 0; 
+    }
+}
+
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .success-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .success-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .success-container a {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  .success-container a:hover {
+    background-color: #45a049;
+  }  */
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    width: 40%;
+    background-color: #e0e0e0;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-actions, .social-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 20px; /* Space between buttons */
+    margin-top: -20px;
+}
+
+.social-btn {
+    padding: 12px 16px; /* Adjust padding for smaller buttons */
+    border-radius: 5px;
+    align-items: center; 
+    border: none;
+    font-size: 0.9rem; /* Slightly smaller font size */
+    cursor: pointer;
+    /* Margin removed; use gap instead */
+}
+
+.social-login .social-btn img {
+    width: 20px;  /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    margin-right: 6px;
+    margin-top: -10px; 
+    margin-bottom: -5px;/* Optional: add some space between the icon and the text */
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.google {
+    background-color: #F4B400;
+    color: white;
+}
+
+.twitter {
+    background-color: #00aced;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left img {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        width: 90%;
+    }
+
+    .form-actions, .social-login {
+        flex-direction: column;
+    }
+
+    .social-login {
+        gap: 10px; /* Adjust spacing for smaller screens */
+    }
+
+    .social-btn {
+        width: 100%;
+        margin: 5px 0; /* Adjust margin if needed */
+    }
+}
+
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.success-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.success-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.success-container a {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.success-container a:hover {
+    background-color: #45a049;
+}
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.success-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.success-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.success-container a {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.success-container a:hover {
+    background-color: #45a049;
+}
+.error-message {
+    color: red;
+    font-size: 0.875em; /* Optional: Adjust the size as needed */
+    margin-top: 5px; /* Optional: Add space above the message */
+}
